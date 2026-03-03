@@ -135,9 +135,9 @@ int main()
 	// when all of the pair just occur once, the progress is done
 	if(freq[max_index].value <= 1) break;
 
+	// append pairs with 
 	da_append(&pairs, freq[max_index].key);
 
-	// region: 
 	for(size_t i = 0; i < tokens_in.count; )
 	{
 	    // current token is the last character of the tokens_in(input text)
